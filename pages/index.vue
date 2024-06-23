@@ -1,16 +1,7 @@
 <template>
-    <div>
-        <header>
-            <nav>
-                <h1 class="logo">KongRuksiam Shop</h1>
-                <NuxtLink to="/">หน้าแรก</NuxtLink>
-                <NuxtLink to="/about">เกี่ยวกับเรา</NuxtLink>
-                <NuxtLink to="/products">สินค้าทั้งหมด</NuxtLink>
-            </nav>
-        </header>
-        <div>
+    <div class="container">
         <h1>หน้าแรกของเว็บไซต์</h1>
-    </div>
+        <img src="/image/shinomiya.png" alt="Shinomiya Kaguya" width="300" height="300">
     </div>
 </template>
 
@@ -20,33 +11,16 @@
 
 <style scoped>
 
-nav {
-    margin: 10px auto;
-    padding: 10px 0;
+.container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #333;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 12px;
-    font-size: 18px;
-    padding: 10px;
+img {
+    width: 500px;
+    height: 500px;
 }
-
-nav a:hover {
-    color: orange;
-}
-
-.logo {
-    margin-right: auto;
-    padding-left: 10px;
-    color: white;
-}
-
-
 
 </style>
