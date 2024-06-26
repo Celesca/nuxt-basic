@@ -6,6 +6,15 @@
 </template>
 
 <script setup>
+useHead({
+    title: 'หน้าแรก',
+    meta: [
+        {
+            name: 'descripton',
+            content: 'ร้านค้าขายสินค้าออนไลน์'
+        }
+    ]
+})
 
 </script>
 
