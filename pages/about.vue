@@ -6,6 +6,16 @@
 
 <script setup>
 
+useHead({
+    title: 'เกี่ยวกับเรา',
+    meta: [
+        {
+            name: 'description',
+            content: 'ร้านค้าขายสินค้าออนไลน์'
+        }
+    ]
+})
+
 </script>
 
 <style scoped>

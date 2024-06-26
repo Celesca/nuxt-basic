@@ -1,5 +1,9 @@
 <template>
     <div>
+        <Head>
+            <Title>Celescadev |{{ product.title }}</Title>
+            <Meta name="description" :content=product.description> </Meta> 
+        </Head>
         <div class="container">
              <img :src="product.thumbnail" :alt="product.title">
              <div class="detail">
